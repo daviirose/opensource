@@ -103,14 +103,14 @@ nav {
   width: 280px;
 	height: 178px;
 	background-color: $Darkyellow-color;
-  margin: 0px 10% 0px 10%;
+  margin: 0px 10% 0px 12%;
 }
 //* Buy tickets section *//
 .aside-container {
   width: 281px;
   height: 200px;
   background-color: $Darkyellow-color;
-  margin: 13px 10% 0px 10%;
+  margin: 13px 10% 0px 12%;
 }
 .tickets-are-now-available {
 	width: 90%;
@@ -123,4 +123,23 @@ nav {
 	color: $Header-fontcolor;
   padding: 40px 21px 0px 0px;
   margin: 0px 15% 0px 5%;
+}
+.BUYTICKETS-container {
+  width: 247px;
+	height: 35px;
+  background-color:$Header-fontcolor;
+  margin: 31px 15% 0px 5%;
+  padding: 19px 0px 0px 0px;
+}
+.BUYTICKETS {
+  width: 128px;
+height: 13px;
+font-family:$Header-fontcolor;
+font-size: 18px;
+font-weight: bold;
+letter-spacing: 0.9px;
+text-align: center;
+color: $Darkyellow-color;
+text-decoration: none;
+padding: 0px 59px 0px 60px;
 }
