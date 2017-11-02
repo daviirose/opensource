@@ -228,4 +228,27 @@ nav {
   letter-spacing: 0.8px;
   margin: 0px 25% 69px 5%; }
 
+.ConfernceSponsors {
+  width: 100%;
+  height: 21px;
+  font-family: "Lora", serif;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.71;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #101010;
+  margin: 64px 0px 0px 0px; }
+
+.ThankyouforsupportingopensourceinCentralPennsylvania {
+  width: 272px;
+  height: 41px;
+  font-family: "Lora", serif;
+  font-size: 17px;
+  line-height: 1.41;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #101010;
+  margin: 15px 0px 0px 0px; }
+
 /*# sourceMappingURL=style.css.map */
