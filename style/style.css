@@ -45,4 +45,401 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
+
+.hero {
+  width: 100%;
+  height: 401px;
+  position: relative;
+  background-image: url("../images/background.jpg"); }
+
+header {
+  padding-top: 36px;
+  padding-bottom: 27px;
+  width: 100%;
+  display: inline-flex; }
+
+.CentralPennsylvaniaOpenSourceConference {
+  width: 85%;
+  height: 29px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.38;
+  letter-spacing: 1.4px;
+  text-align: left;
+  color: #f5f5f5;
+  margin: 2px 1% 10px 6%;
+  display: inline-flex; }
+
+nav {
+  display: inline-flex; }
+
+.dropbtn {
+  background-color: #ffffff;
+  color: white;
+  width: 43px;
+  height: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 9px; }
+
+.dropdown {
+  margin-right: 20px;
+  position: relative;
+  display: inline-block; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; }
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ffffff; }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #ffae00; }
+
+.line-container {
+  width: 100%;
+  height: 5px;
+  background-color: #ffffff; }
+
+.IntotheGreatWideOpen {
+  width: 82%;
+  height: 111px;
+  font-family: "Lora", serif;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  text-align: left;
+  color: #ffae00;
+  margin: 73px 8% 30px 12%; }
+
+.half-line {
+  width: 108px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 0px 8% 31px 12%; }
+
+.script-container {
+  width: 280px;
+  height: 178px;
+  background-color: #ffae00;
+  margin: 0px 10% 0px 12%; }
+
+.aside-container {
+  width: 281px;
+  height: 200px;
+  background-color: #ffae00;
+  margin: 13px 10% 0px 12%; }
+
+.tickets-are-now-available {
+  width: 90%;
+  height: 46px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #f5f5f5;
+  padding: 40px 21px 0px 0px;
+  margin: 0px 15% 0px 5%; }
+
+.BUYTICKETS-container {
+  width: 247px;
+  height: 35px;
+  background-color: #f5f5f5;
+  margin: 31px 15% 0px 5%;
+  padding: 19px 0px 0px 0px; }
+
+.BUYTICKETS {
+  width: 128px;
+  height: 13px;
+  font-family: #f5f5f5;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.9px;
+  text-align: center;
+  color: #ffae00;
+  text-decoration: none;
+  padding: 0px 59px 0px 60px; }
+
+.CPOSC-container {
+  width: 100%; }
+
+.CPOSC {
+  width: 70%;
+  height: 181px;
+  font-family: "Lora", serif;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.52;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #101010;
+  margin: 38px 20% 25px 10%; }
+
+.presentations-and-sessions-cover-all-aspects-of-open-source-wi {
+  width: 70%;
+  height: 209px;
+  font-family: "Lora", serif;
+  font-size: 17px;
+  line-height: 1.41;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #101010;
+  margin: 38px 20% 41px 10%; }
+
+.WhyCPOSC-container {
+  width: 100%;
+  height: 1157px;
+  background-color: #ebebeb;
+  padding: 63px 25px 0px 19px; }
+
+.WhyCPOSC {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.9px;
+  text-align: left;
+  font-weight: bold;
+  margin: 0px 25% 0px 5%; }
+
+.CPOSC-p {
+  width: 70%;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  margin: 0px 25% 69px 5%; }
+
+.Conference-section {
+  width: 100%;
+  height: auto; }
+
+.Conference-Sponsors {
+  width: 90%;
+  height: 21px;
+  font-family: "Lora", serif;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.71;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #101010;
+  margin: 64px 1% 0px 9%; }
+
+.ThankyouforsupportingopensourceinCentralPennsylvania {
+  width: 70%;
+  height: 41px;
+  font-family: "Lora", serif;
+  font-size: 17px;
+  line-height: 1.41;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #101010;
+  margin: 15px 1% 21px 9%; }
+
+.BECOME-A-SPONSOR-container {
+  width: 281px;
+  height: auto;
+  background-color: #ffae00;
+  margin: 0px 1% 68px 9%;
+  padding: 15px 0px 15px 0px; }
+
+.BECOME-A-SPONSOR {
+  width: 85%;
+  height: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.73;
+  letter-spacing: 0.9px;
+  text-align: center;
+  color: #f5f5f5;
+  text-decoration: none;
+  padding: 0px 5% 0px 10%; }
+
+.PLATINUMSPONSORS, .gold-sponsors, .Silver-sponsors, .Bronze-sponsors, .Host-sponsors {
+  width: 90%;
+  height: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.71;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ffae00;
+  margin: 0px 1% 0px 9%; }
+
+.Seisan-img {
+  width: 200px;
+  height: 80px;
+  margin: 22px 1% 0px 9%; }
+
+.gold-sponsors {
+  margin-top: 80px; }
+
+.Printedsolid-img {
+  width: 151px;
+  height: 93px;
+  margin: 35px 1% 0px 9%; }
+
+.shift-img {
+  width: 93px;
+  height: 94px;
+  margin: 0px 1% 0px 9%; }
+
+.linode-img {
+  width: 211px;
+  height: 83px;
+  margin: 27px 1% 0px 9%; }
+
+.Silver-sponsors {
+  margin-top: 63px; }
+
+.lulzbot-img {
+  width: 110px;
+  height: 113px;
+  margin: 25px 1% 0px 9%; }
+
+.tapestry-img {
+  width: 80px;
+  height: 99px;
+  margin: 0px 1% 0px 9%; }
+
+.elastic-img {
+  width: 179px;
+  height: 62px;
+  margin: 24px 1% 0px 9%; }
+
+.Bronze-sponsors {
+  margin-top: 63px; }
+
+.lullabot-img {
+  width: 87px;
+  height: 94px;
+  margin: 21px 1% 0px 9%; }
+
+.Host-sponsors {
+  margin-top: 53px; }
+
+.millersville-img {
+  width: 225px;
+  height: 71px;
+  margin: 16px 1% 0px 6%; }
+
+.Locations-container {
+  width: 100%;
+  height: 563px;
+  background-color: #ffae00;
+  margin-top: 59px; }
+
+.conference-locations {
+  width: 50%;
+  height: 44px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.43;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #101010;
+  padding: 75px 5% 0px 10%; }
+
+.ware, .Prince, .Tellus {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.33;
+  margin: 36px 5% 0px 10%; }
+
+.location1, .n, .E {
+  width: 50%;
+  height: auto;
+  font-family: "Lora", serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #101010;
+  margin: 0px 5% 0px 10%; }
+
+.Prince {
+  margin-top: 44px; }
+
+.map {
+  width: 100%;
+  height: 369px;
+  background-color: grey; }
+
+.footer {
+  width: 100%;
+  height: 502px;
+  background-color: #313131; }
+
+.code-of-conduct {
+  width: 98%;
+  height: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  color: #ebebeb;
+  padding: 56px 0px 0px 20px;
+  margin: 0px 1% 0px 1%; }
+
+.code-of-conduct-paragraph {
+  width: 70%;
+  height: 111px;
+  font-family: "Lora", serif;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: left;
+  color: #ebebeb;
+  padding: 22px 0px 0px 20px;
+  margin: 0px 1% 0px 1%; }
+
+.connect-with-cposc {
+  width: 98%;
+  height: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  color: #ebebeb;
+  margin: 0px 1% 0px 1%;
+  padding: 83px 0px 0px 20px; }
+
+.cposc-2017 {
+  width: 98%;
+  height: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: #ebebeb;
+  margin: 0px 1% 0px 1%;
+  padding: 84px 0px 0px 20px; }
+
 /*# sourceMappingURL=style.css.map */
