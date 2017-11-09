@@ -5,6 +5,7 @@ html,body {
     padding: 0px;
     overflow-x: hidden;
 }
+//mobile home//
 .hero {
   width: 100%;
   height: 401px;
@@ -146,4 +147,31 @@ nav {
   color: $Darkyellow-color;
   text-decoration: none;
   padding: 0px 59px 0px 60px;
+}
+//mobile home ends//
+//Mobile sponsor starts//
+.sponsor-hero {
+  @extend .hero;
+  height: 551px;
+}
+.Sponsorthecentralpa {
+  width: 68%;
+	height: 277px;
+	font-family: $Lora-font;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1.5;
+	letter-spacing: 1.2px;
+	text-align: left;
+	color: $Darkyellow-color;
+  margin: 73px 1% 10px 6%;
+  display: inline-flex;
+}
+.half-line-sponsor {
+  @extend .half-line;
+  margin: 40px 8% 31px 6%;
+}
+.aside-container-sponsor {
+  @extend .aside-container;
+  margin-top: 96px;
 }

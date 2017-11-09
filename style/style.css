@@ -52,7 +52,7 @@ html, body {
   padding: 0px;
   overflow-x: hidden; }
 
-.hero {
+.hero, .sponsor-hero {
   width: 100%;
   height: 401px;
   position: relative;
@@ -139,7 +139,7 @@ nav {
   color: #ffae00;
   margin: 73px 8% 30px 12%; }
 
-.half-line {
+.half-line, .half-line-sponsor {
   width: 108px;
   height: 5px;
   background-color: #ffffff;
@@ -151,7 +151,7 @@ nav {
   background-color: #ffae00;
   margin: 0px 10% 0px 12%; }
 
-.aside-container {
+.aside-container, .aside-container-sponsor {
   width: 281px;
   height: 200px;
   background-color: #ffae00;
@@ -187,6 +187,28 @@ nav {
   color: #ffae00;
   text-decoration: none;
   padding: 0px 59px 0px 60px; }
+
+.sponsor-hero {
+  height: 551px; }
+
+.Sponsorthecentralpa {
+  width: 68%;
+  height: 277px;
+  font-family: "Lora", serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: #ffae00;
+  margin: 73px 1% 10px 6%;
+  display: inline-flex; }
+
+.half-line-sponsor {
+  margin: 40px 8% 31px 6%; }
+
+.aside-container-sponsor {
+  margin-top: 96px; }
 
 .CPOSC-container {
   width: 100%; }
