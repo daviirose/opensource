@@ -190,9 +190,10 @@ margin: 26px 5% 0px 12%;
 }
 .sponsor-cposc-container {
 width: 228px;
-height: 59px;
+height: 49px;
 background-color: #ffae00;
 margin: 52px 5% 0px 12%;
+padding-top: 10px;
 }
 .sponsor-cposc {
 width: 100%;
@@ -204,5 +205,20 @@ line-height: 2.25;
 letter-spacing: 0.8px;
 text-align: center;
 color: #ffffff;
-padding: 9px 8px 0px 4px;
+margin: 0px 8px 0px 40px;
+text-decoration: none;
+}
+//Section 4 ends//
+//Section 5 starts//
+.conference-locations {
+	width: 98%;
+	height: 44px;
+	font-family: $Montserrat-font;
+	font-size: 21px;
+	font-weight: 500;
+	line-height: 1.43;
+	letter-spacing: 1px;
+	text-align: left;
+	color: #101010;
+  margin: 52px 5% 0px 1%;
 }

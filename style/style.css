@@ -388,9 +388,10 @@ li {
 
 .sponsor-cposc-container {
   width: 228px;
-  height: 59px;
+  height: 49px;
   background-color: #ffae00;
-  margin: 52px 5% 0px 12%; }
+  margin: 52px 5% 0px 12%;
+  padding-top: 10px; }
 
 .sponsor-cposc {
   width: 100%;
@@ -402,7 +403,20 @@ li {
   letter-spacing: 0.8px;
   text-align: center;
   color: #ffffff;
-  padding: 9px 8px 0px 4px; }
+  margin: 0px 8px 0px 40px;
+  text-decoration: none; }
+
+.conference-locations {
+  width: 98%;
+  height: 44px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.43;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #101010;
+  margin: 52px 5% 0px 1%; }
 
 .PLATINUMSPONSORS, .gold-sponsors, .Silver-sponsors, .Bronze-sponsors, .Host-sponsors {
   width: 90%;
@@ -489,13 +503,13 @@ li {
   letter-spacing: 1px;
   text-align: left;
   color: #101010;
-  padding: 75px 5% 0px 10%; }
+  padding: 75px 5% 0px 12%; }
 
 .ware, .Prince, .Tellus {
   font-size: 18px;
   font-weight: bold;
   line-height: 1.33;
-  margin: 36px 5% 0px 10%; }
+  margin: 36px 5% 0px 13%; }
 
 .location1, .n, .E {
   width: 50%;
@@ -505,7 +519,7 @@ li {
   line-height: 1.5;
   text-align: left;
   color: #101010;
-  margin: 0px 5% 0px 10%; }
+  margin: 0px 5% 0px 13%; }
 
 .Prince {
   margin-top: 44px; }
