@@ -99,7 +99,7 @@ margin: 0px 25% 0px 5%;
   .BecomeASponsor-mobile-container {
     width: 100%;
     height: auto;
-    margin: 0px 15% 53px 5%;
+    margin: 0px 15% 53px 1%;
   }
   .BecomeASponsor {
     @extend .CPOSC;
@@ -107,12 +107,12 @@ margin: 0px 25% 0px 5%;
   }
   .BecomeASponsor-firstP {
     @extend .presentations-and-sessions-cover-all-aspects-of-open-source-wi;
-    width: 75%;
+    width: 70%;
     height: auto;
   }
   .BecomeASponsor-secondP {
     @extend .presentations-and-sessions-cover-all-aspects-of-open-source-wi;
-    width: 75%;
+    width: 70%;
     height: auto;
   }
   strong {
@@ -122,11 +122,11 @@ margin: 0px 25% 0px 5%;
   //Section 2 begins//
   .AboutCPOSC-container{
 	width: 100%;
-	height: 1206px;
+	height: 1100px;
 	background-color: #ebebeb;
 }
 .AboutCPOSC {
-  width: 75%;
+  width: 85%;
   font-family: $Montserrat-font;
   font-weight: bold;
   font-size: 24px;
@@ -134,8 +134,28 @@ margin: 0px 25% 0px 5%;
   letter-spacing: 1.2px;
   text-align: left;
   padding-top: 61px;
-  margin: 0px 5% 0px 15%;
+  margin: 0px 5% 0px 10%;
 }
 .ThetargetaudienceforCPOSC {
-  
+  width: 85%;
+  height: auto;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.9px;
+  margin: 0px 5% 0px 10%;
+  padding-top: 20px;
+  font-family: $Lora-font;
 }
+ul {
+  display: list-item;
+  width: 85%;
+  height: auto;
+  font-size: 18px;
+  font-family: $Lora-font;
+}
+li {
+  margin:20px 5% 0px 12%;
+}
+  .WhysponsorCPOSC {
+    @extend .AboutCPOSC;
+  }
