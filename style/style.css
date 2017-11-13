@@ -307,17 +307,17 @@ nav {
 .BecomeASponsor-mobile-container {
   width: 100%;
   height: auto;
-  margin: 0px 15% 53px 5%; }
+  margin: 0px 15% 53px 1%; }
 
 .BecomeASponsor {
   height: 10px; }
 
 .BecomeASponsor-firstP {
-  width: 75%;
+  width: 70%;
   height: auto; }
 
 .BecomeASponsor-secondP {
-  width: 75%;
+  width: 70%;
   height: auto; }
 
 strong {
@@ -325,11 +325,11 @@ strong {
 
 .AboutCPOSC-container {
   width: 100%;
-  height: 1206px;
+  height: 1100px;
   background-color: #ebebeb; }
 
-.AboutCPOSC {
-  width: 75%;
+.AboutCPOSC, .WhysponsorCPOSC {
+  width: 85%;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 24px;
@@ -337,7 +337,86 @@ strong {
   letter-spacing: 1.2px;
   text-align: left;
   padding-top: 61px;
-  margin: 0px 5% 0px 15%; }
+  margin: 0px 5% 0px 10%; }
+
+.ThetargetaudienceforCPOSC {
+  width: 85%;
+  height: auto;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.9px;
+  margin: 0px 5% 0px 10%;
+  padding-top: 20px;
+  font-family: "Lora", serif; }
+
+ul {
+  display: list-item;
+  width: 85%;
+  height: auto;
+  font-size: 18px;
+  font-family: "Lora", serif; }
+
+li {
+  margin: 20px 5% 0px 12%; }
+
+.sponsorship-packages-container {
+  width: 100%;
+  height: 399px; }
+
+.sponsorship-packages {
+  width: 98%;
+  height: 19px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #101010;
+  margin: 66px 5% 0px 12%; }
+
+.sponsorship-packages-paragraph {
+  width: 65%;
+  height: auto;
+  font-family: "Lora", serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #101010;
+  margin: 26px 5% 0px 12%; }
+
+.sponsor-cposc-container {
+  width: 228px;
+  height: 49px;
+  background-color: #ffae00;
+  margin: 52px 5% 0px 12%;
+  padding-top: 10px; }
+
+.sponsor-cposc {
+  width: 100%;
+  height: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.25;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px 8px 0px 40px;
+  text-decoration: none; }
+
+.conference-locations {
+  width: 98%;
+  height: 44px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.43;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #101010;
+  margin: 52px 5% 0px 1%; }
 
 .PLATINUMSPONSORS, .gold-sponsors, .Silver-sponsors, .Bronze-sponsors, .Host-sponsors {
   width: 90%;
@@ -424,13 +503,13 @@ strong {
   letter-spacing: 1px;
   text-align: left;
   color: #101010;
-  padding: 75px 5% 0px 10%; }
+  padding: 75px 5% 0px 12%; }
 
 .ware, .Prince, .Tellus {
   font-size: 18px;
   font-weight: bold;
   line-height: 1.33;
-  margin: 36px 5% 0px 10%; }
+  margin: 36px 5% 0px 13%; }
 
 .location1, .n, .E {
   width: 50%;
@@ -440,7 +519,7 @@ strong {
   line-height: 1.5;
   text-align: left;
   color: #101010;
-  margin: 0px 5% 0px 10%; }
+  margin: 0px 5% 0px 13%; }
 
 .Prince {
   margin-top: 44px; }
