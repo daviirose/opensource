@@ -128,7 +128,7 @@ nav {
   height: 5px;
   background-color: #ffffff; }
 
-.IntotheGreatWideOpen {
+.IntotheGreatWideOpen, .speakers-sessions {
   width: 82%;
   height: 111px;
   font-family: "Lora", serif;
@@ -139,7 +139,7 @@ nav {
   color: #ffae00;
   margin: 73px 8% 30px 12%; }
 
-.half-line, .half-line-sponsor {
+.half-line, .half-line-sponsor, .half-line-speaker {
   width: 108px;
   height: 5px;
   background-color: #ffffff;
@@ -151,7 +151,7 @@ nav {
   background-color: #ffae00;
   margin: 0px 10% 0px 12%; }
 
-.aside-container, .aside-container-sponsor {
+.aside-container, .aside-container-sponsor, .aside-container-speaker {
   width: 281px;
   height: 200px;
   background-color: #ffae00;
@@ -207,8 +207,18 @@ nav {
 .half-line-sponsor {
   margin: 40px 8% 31px 6%; }
 
-.aside-container-sponsor {
+.aside-container-sponsor, .aside-container-speaker {
   margin-top: 96px; }
+
+.speakers-sessions {
+  width: 100%;
+  margin: 73px 1% 0px 6%; }
+
+.half-line-speaker {
+  margin: -30px 8% 53px 6%; }
+
+.aside-container-speaker {
+  margin-top: 155px; }
 
 .CPOSC-container {
   width: 100%; }
@@ -417,6 +427,80 @@ li {
   text-align: left;
   color: #101010;
   margin: 52px 5% 0px 1%; }
+
+.pleasenote-container {
+  width: 100%;
+  height: auto; }
+
+.pleasenote {
+  width: 80%;
+  height: 34px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.6px;
+  text-align: left;
+  color: #101010;
+  margin: 48px 8% 0px 12%; }
+
+.RegistrationBreakfast, .Opening {
+  width: 80%;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 32px 8% 0px 12%; }
+
+.Ware-center, .Auditorium {
+  width: 35%;
+  height: auto;
+  font-family: "Lora", serif;
+  font-size: 16px;
+  margin: 5px 8% 0px 12%; }
+
+.First-session-container {
+  width: 100%;
+  height: auto;
+  background-color: #ebebeb;
+  padding-top: 20px;
+  margin-top: 20px; }
+
+.FirstSession {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  margin: 5px 8% 0px 12%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  color: #ffae00; }
+
+.nine-am {
+  width: 100%;
+  height: auto;
+  font-family: "Lora", serif;
+  font-size: 16px;
+  margin: 5px 8% 0px 12%; }
+
+.OMG, .RealityofDesktop, .NXDomain {
+  width: 70%;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: 800;
+  margin: 30px 8% 0px 12%; }
+
+.DonSchenck, .MathhewGorton, .ThomasDelrue {
+  width: 30%;
+  height: auto;
+  font-family: "Lora", serif;
+  font-size: 16px;
+  margin: 10px 8% 0px 12%; }
+
+.MathhewGorton {
+  width: 40%; }
 
 .PLATINUMSPONSORS, .gold-sponsors, .Silver-sponsors, .Bronze-sponsors, .Host-sponsors {
   width: 90%;
