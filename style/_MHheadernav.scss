@@ -176,3 +176,17 @@ nav {
   margin-top: 96px;
 }
 //Mobile sponsor ends//
+//Mobile speakers and sessions begin//
+.speakers-sessions {
+	@extend .IntotheGreatWideOpen;
+  width: 100%;
+  margin: 73px 1% 0px 6%;
+}
+.half-line-speaker {
+  @extend .half-line;
+  margin: -30px 8% 53px 6%;
+}
+.aside-container-speaker {
+  @extend .aside-container-sponsor;
+  margin-top: 155px;
+}
