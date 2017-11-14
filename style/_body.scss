@@ -455,3 +455,34 @@ text-decoration: none;
 .Nathaniel {
   @extend .DonSchenck;
 }
+//section 6 begins//
+.SixthSession-container {
+  width: 100%;
+  height: 510px;
+  background-color: #ebebeb;
+}
+.SixthSession {
+  @extend .FirstSession;
+  padding-top: 30px;
+}
+.one-fourfive {
+  @extend .nine-am;
+}
+.OpenSourceHome {
+  @extend .OMG;
+}
+.MichaelGrucz {
+  @extend .DonSchenck;
+}
+.Future-Proofing {
+  @extend .OMG;
+}
+.RussellPavlicek {
+  @extend .DonSchenck;
+}
+.BuildingForScale {
+  @extend .OMG;
+}
+.SarahMogin {
+  @extend .DonSchenck;
+}
