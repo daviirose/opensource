@@ -377,7 +377,7 @@ text-decoration: none;
 .ScottWoods {
   @extend .DonSchenck;
 }
-//Section 4 begins//
+//small div section begins//
 .section-four-container {
   width: 100%;
   height: 150px;
@@ -394,7 +394,7 @@ text-decoration: none;
   @extend .DonSchenck;
     margin: 5px 8% 0px 12%;
 }
-//section 5 begins//
+//section 4 begins//
 .FourthSession-container {
   width: 100%;
   height: 490px;
@@ -423,5 +423,35 @@ text-decoration: none;
   @extend .OMG;
 }
 .MichelleStyer {
+  @extend .DonSchenck;
+}
+//section 5 begins //
+.FifthSession-container {
+  width: 100%;
+  height: 450px;
+}
+.FifthSession {
+  @extend .FirstSession;
+  padding-top: 30px;
+}
+.one-zerofive {
+  @extend .nine-am;
+}
+.Introtoblockchain {
+  @extend .OMG;
+}
+.JamesTramel {
+  @extend .DonSchenck;
+}
+.Securingyourweb {
+  @extend .OMG;
+}
+.NateGood {
+  @extend .DonSchenck;
+}
+.FirstPerson {
+  @extend .OMG;
+}
+.Nathaniel {
   @extend .DonSchenck;
 }
