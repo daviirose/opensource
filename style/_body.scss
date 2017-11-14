@@ -487,9 +487,13 @@ text-decoration: none;
   @extend .DonSchenck;
 }
 //Section 7 begins//
+.Lastcontainer {
+  width: 100%;
+  height: 760px;
+}
 .SeventhSession-container {
   width: 100%;
-  height: 450px;
+  height: 400px;
 }
 .SeventhSession {
   @extend .FirstSession;
@@ -516,4 +520,42 @@ text-decoration: none;
 }
 .TimFreund {
   @extend .DonSchenck;
+}
+.divsection {
+  width: 100%;
+  height: 123px;
+  background-color: #ebebeb;
+}
+.three-twofive {
+  @extend .one-onefive;
+}
+.Closing {
+  @extend .Lightning;
+  padding-top: 5px;
+}
+.divsectiontwo {
+  @extend .divsection;
+  background-color: white;
+}
+.four-forty {
+  @extend .one-onefive;
+}
+.Prize {
+  @extend .Lightning;
+  padding-top: 5px;
+}
+.divsectionthree {
+  @extend .divsection;
+  margin-top: 30px;
+  height: 143px;
+}
+.five-zero {
+  @extend .one-onefive;
+}
+.afterparty {
+  @extend .Lightning;
+  padding-top: 5px;
+}
+.tellus {
+  @extend .Auditorium;
 }
