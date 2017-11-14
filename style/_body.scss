@@ -322,7 +322,7 @@ text-decoration: none;
 }
 .SecondSession {
   @extend .FirstSession;
-  margin-top: 20px;
+  padding-top: 30px;
 }
 .ten-am {
   @extend .nine-am;
@@ -346,3 +346,34 @@ text-decoration: none;
   @extend .DonSchenck;
 }
 //section 3 begins//
+.thirdsession-container {
+  width: 100%;
+	height: 450px;
+	background-color: #ebebeb;
+}
+.thirdsession {
+  @extend .FirstSession;
+  padding-top: 30px;
+}
+.ten-forty {
+  @extend .nine-am;
+}
+.KubernetesDeep {
+  @extend .OMG;
+}
+.MikeNewswanger {
+  @extend .DonSchenck;
+  width: 40%;
+}
+.Linux {
+  @extend .OMG;
+}
+.Phil {
+  @extend .DonSchenck;
+}
+.WhyDevelopers {
+  @extend .OMG;
+}
+.ScottWoods {
+  @extend .DonSchenck;
+}
