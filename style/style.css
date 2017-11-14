@@ -452,7 +452,7 @@ li {
   font-weight: bold;
   margin: 32px 8% 0px 12%; }
 
-.Ware-center, .Auditorium {
+.Ware-center, .Auditorium, .tellus {
   width: 35%;
   height: auto;
   font-family: "Lora", serif;
@@ -466,7 +466,7 @@ li {
   padding-top: 20px;
   margin-top: 20px; }
 
-.FirstSession, .SecondSession, .thirdsession, .FourthSession, .FifthSession, .SixthSession {
+.FirstSession, .SecondSession, .thirdsession, .FourthSession, .FifthSession, .SixthSession, .SeventhSession {
   width: 100%;
   height: auto;
   font-size: 18px;
@@ -477,14 +477,14 @@ li {
   letter-spacing: 0.8px;
   color: #ffae00; }
 
-.nine-am, .ten-am, .ten-forty, .one-onefive, .twelve-twofive, .one-zerofive, .one-fourfive {
+.nine-am, .ten-am, .ten-forty, .one-onefive, .three-twofive, .four-forty, .five-zero, .twelve-twofive, .one-zerofive, .one-fourfive, .two-fourfive {
   width: 100%;
   height: auto;
   font-family: "Lora", serif;
   font-size: 16px;
   margin: 5px 8% 0px 12%; }
 
-.OMG, .RealityofDesktop, .NXDomain, .Kubernetes, .Real-time, .SoftwareDefined, .KubernetesDeep, .Linux, .WhyDevelopers, .Lightning, .OpenMobility, .Vault, .AdventuresofOpen, .Introtoblockchain, .Securingyourweb, .FirstPerson, .OpenSourceHome, .Future-Proofing, .BuildingForScale {
+.OMG, .RealityofDesktop, .NXDomain, .Kubernetes, .Real-time, .SoftwareDefined, .KubernetesDeep, .Linux, .WhyDevelopers, .Lightning, .Closing, .Prize, .afterparty, .OpenMobility, .Vault, .AdventuresofOpen, .Introtoblockchain, .Securingyourweb, .FirstPerson, .OpenSourceHome, .Future-Proofing, .BuildingForScale, .Infavorofsharing, .Ditching, .MakeAudio {
   width: 70%;
   height: auto;
   font-family: "Montserrat", sans-serif;
@@ -492,7 +492,7 @@ li {
   font-weight: 800;
   margin: 30px 8% 0px 12%; }
 
-.DonSchenck, .MathhewGorton, .ThomasDelrue, .MattRogish, .RichEverts, .TomSwarts, .MikeNewswanger, .Phil, .ScottWoods, .Auditorium, .DavidNesbitt, .JasonODonnell, .MichelleStyer, .JamesTramel, .NateGood, .Nathaniel, .MichaelGrucz, .RussellPavlicek, .SarahMogin {
+.DonSchenck, .MathhewGorton, .ThomasDelrue, .MattRogish, .RichEverts, .TomSwarts, .MikeNewswanger, .Phil, .ScottWoods, .Auditorium, .tellus, .DavidNesbitt, .JasonODonnell, .MichelleStyer, .JamesTramel, .NateGood, .Nathaniel, .MichaelGrucz, .RussellPavlicek, .SarahMogin, .Bri, .SteveHigh, .TimFreund {
   width: 30%;
   height: auto;
   font-family: "Lora", serif;
@@ -524,13 +524,13 @@ li {
   width: 100%;
   height: 150px; }
 
-.one-onefive {
+.one-onefive, .three-twofive, .four-forty, .five-zero {
   padding-top: 20px; }
 
-.Lightning {
+.Lightning, .Closing, .Prize, .afterparty {
   margin: 5px 8% 0px 12%; }
 
-.Auditorium {
+.Auditorium, .tellus {
   margin: 5px 8% 0px 12%; }
 
 .FourthSession-container {
@@ -555,6 +555,41 @@ li {
 
 .SixthSession {
   padding-top: 30px; }
+
+.Lastcontainer {
+  width: 100%;
+  height: 760px; }
+
+.SeventhSession-container {
+  width: 100%;
+  height: 400px; }
+
+.SeventhSession {
+  padding-top: 30px; }
+
+.Bri {
+  width: 25%; }
+
+.divsection, .divsectiontwo, .divsectionthree {
+  width: 100%;
+  height: 123px;
+  background-color: #ebebeb; }
+
+.Closing {
+  padding-top: 5px; }
+
+.divsectiontwo {
+  background-color: white; }
+
+.Prize {
+  padding-top: 5px; }
+
+.divsectionthree {
+  margin-top: 30px;
+  height: 143px; }
+
+.afterparty {
+  padding-top: 5px; }
 
 .PLATINUMSPONSORS, .gold-sponsors, .Silver-sponsors, .Bronze-sponsors, .Host-sponsors {
   width: 90%;
