@@ -486,3 +486,34 @@ text-decoration: none;
 .SarahMogin {
   @extend .DonSchenck;
 }
+//Section 7 begins//
+.SeventhSession-container {
+  width: 100%;
+  height: 450px;
+}
+.SeventhSession {
+  @extend .FirstSession;
+  padding-top: 30px;
+}
+.two-fourfive {
+  @extend .nine-am;
+}
+.Infavorofsharing {
+  @extend .OMG;
+}
+.Bri {
+  @extend .DonSchenck;
+  width: 25%;
+}
+.Ditching {
+  @extend .OMG;
+}
+.SteveHigh {
+  @extend .DonSchenck;
+}
+.MakeAudio {
+  @extend .OMG;
+}
+.TimFreund {
+  @extend .DonSchenck;
+}
