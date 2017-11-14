@@ -466,7 +466,7 @@ li {
   padding-top: 20px;
   margin-top: 20px; }
 
-.FirstSession, .SecondSession, .thirdsession {
+.FirstSession, .SecondSession, .thirdsession, .FourthSession {
   width: 100%;
   height: auto;
   font-size: 18px;
@@ -477,14 +477,14 @@ li {
   letter-spacing: 0.8px;
   color: #ffae00; }
 
-.nine-am, .ten-am, .ten-forty {
+.nine-am, .ten-am, .ten-forty, .one-onefive, .twelve-twofive {
   width: 100%;
   height: auto;
   font-family: "Lora", serif;
   font-size: 16px;
   margin: 5px 8% 0px 12%; }
 
-.OMG, .RealityofDesktop, .NXDomain, .Kubernetes, .Real-time, .SoftwareDefined, .KubernetesDeep, .Linux, .WhyDevelopers {
+.OMG, .RealityofDesktop, .NXDomain, .Kubernetes, .Real-time, .SoftwareDefined, .KubernetesDeep, .Linux, .WhyDevelopers, .Lightning, .OpenMobility, .Vault, .AdventuresofOpen {
   width: 70%;
   height: auto;
   font-family: "Montserrat", sans-serif;
@@ -492,7 +492,7 @@ li {
   font-weight: 800;
   margin: 30px 8% 0px 12%; }
 
-.DonSchenck, .MathhewGorton, .ThomasDelrue, .MattRogish, .RichEverts, .TomSwarts, .MikeNewswanger, .Phil, .ScottWoods {
+.DonSchenck, .MathhewGorton, .ThomasDelrue, .MattRogish, .RichEverts, .TomSwarts, .MikeNewswanger, .Phil, .ScottWoods, .Auditorium, .DavidNesbitt, .JasonODonnell, .MichelleStyer {
   width: 30%;
   height: auto;
   font-family: "Lora", serif;
@@ -519,6 +519,27 @@ li {
 
 .MikeNewswanger {
   width: 40%; }
+
+.section-four-container {
+  width: 100%;
+  height: 150px; }
+
+.one-onefive {
+  padding-top: 20px; }
+
+.Lightning {
+  margin: 5px 8% 0px 12%; }
+
+.Auditorium {
+  margin: 5px 8% 0px 12%; }
+
+.FourthSession-container {
+  width: 100%;
+  height: 490px;
+  background-color: #ebebeb; }
+
+.FourthSession {
+  padding-top: 30px; }
 
 .PLATINUMSPONSORS, .gold-sponsors, .Silver-sponsors, .Bronze-sponsors, .Host-sponsors {
   width: 90%;
