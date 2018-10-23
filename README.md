@@ -2,4 +2,4 @@
 
 One of my first websites with HTML and CSS 
 
--Not finished but strived to get better
+  - Not finished but strived to get better
